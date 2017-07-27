@@ -28,10 +28,21 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxa-cr-Tea">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <color key="backgroundColor" red="0.55294117647058827" green="0.43137254901960786" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.37254901960784315" green="0.2627450980392157" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Home" id="V6c-rq-JLF">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="mQ7-28-8UB"/>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="Xsh-2j-lup"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="mQ7-28-8UB">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="DecreadButton:" destination="BYZ-38-t0r" id="OAM-Jm-ULz"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="Xsh-2j-lup">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="inCreadButton:" destination="BYZ-38-t0r" id="31E-Qc-vGi"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -59,6 +70,9 @@
                             <constraint firstItem="gxa-cr-Tea" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="yeX-lC-j4e"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="PtB-EH-DgC" id="kWG-Pr-5zd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
