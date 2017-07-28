@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D019F1A1F2AD3E600D21EDB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9D019F191F2AD3E600D21EDB /* README.md */; };
 		9D1B5E911F29D7BC00667493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B5E901F29D7BC00667493 /* AppDelegate.swift */; };
 		9D1B5E931F29D7BC00667493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1B5E921F29D7BC00667493 /* ViewController.swift */; };
 		9D1B5E961F29D7BC00667493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1B5E941F29D7BC00667493 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D019F191F2AD3E600D21EDB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9D1B5E8D1F29D7BC00667493 /* FunnyNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1B5E901F29D7BC00667493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D1B5E921F29D7BC00667493 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		9D1B5E841F29D7BC00667493 = {
 			isa = PBXGroup;
 			children = (
+				9D019F191F2AD3E600D21EDB /* README.md */,
 				9D1B5E8F1F29D7BC00667493 /* FunnyNumber */,
 				9D1B5E8E1F29D7BC00667493 /* Products */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				9D1B5E931F29D7BC00667493 /* ViewController.swift in Sources */,
 				9D1B5E911F29D7BC00667493 /* AppDelegate.swift in Sources */,
+				9D019F1A1F2AD3E600D21EDB /* README.md in Sources */,
 				9D1B5EA51F29EA7800667493 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +313,7 @@
 				9D1B5EA11F29D7BC00667493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
